@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'poppin1', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    src: url(../font/working.zip);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;  /* Fuente del segundo archivo */
+    background-color: whitesmoke;  /* Fondo del segundo archivo */
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;  /* Limitar el ancho como en el segundo archivo */
+    margin: 0 auto;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url('imagenes/fondo2.jpg');  /* Fondo de imagen del segundo archivo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 1200px;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    min-height: 10vh;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    text-align: center;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 398px;  /* Altura del segundo archivo */
+    text-align: center;
+    background-image: url('imagenes/banner.jpg');  /* Fondo del encabezado */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encabezado h1 {
+    margin: 0;
+    color: white;  /* Texto blanco como en el segundo archivo */
+}
+
+.encabezado p {
+
+}
+
+.video cite {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    width: 90%;
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin: auto;
+}
+
+.parte2 {
+    min-height: 100vh;
+    display: flex;
+    gap: 2%;
+    padding: 15px 0;
+}
+
+.parte2 > div {
+    flex-basis: 33%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;  /* Texto negro como en el segundo archivo */
+}
+
+p {
+    text-align: justify;
+    line-height: 23px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+footer {
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);  /* Fondo del footer */
+    color: white;  /* Texto blanco en el footer */
+}
+
+footer .contenedor2 img {
+    width: 80px;
+    padding: 10px;
+}
+
+footer a {
+    color: azure;  /* Enlaces en el footer */
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .parte1 {
+        flex-direction: column;
+    }
+
+    .parte2 {
+        flex-direction: column;
+    }
+}
