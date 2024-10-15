@@ -1,0 +1,169 @@
+@import url(../font/Roboto-Bold.ttf);
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+html{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+
+}
+
+body{
+    width: 100%;
+    max-width: 1200px;
+    background-image: url('imagenes/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header .encabezado{
+    background-image: url('imagenes/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 398px;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    /*position: fixed;*/
+}
+
+
+
+h1{
+ text-align: center;
+ color: white;
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black ;
+}
+nav{
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    font-size: 17px;
+}
+
+nav a{
+    color: white;
+    box-shadow: 3px 1px 3px 2px white;
+    text-decoration: none;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+main{
+    min-height: 70vh;
+    padding: 65px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0) ;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer a{
+    color: azure;
+}
+
+footer img{
+    width: 40px;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    line-height: 23px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    
+}
+
+img{
+    width: 80%;
+    
+
+
+}
+
+/* float left */
+.Barba{
+    float: right;
+    width: 500px;
+    padding: 0 30px;
+    
+
+}
+.Barba img {
+    
+        float: right;
+        margin-right: 15px; 
+        width: auto; 
+        height: auto; 
+    
+}
+/* float right */
+.cabello{
+    float: left;
+    width: 510px;
+    padding: 0 30px;
+    
+}
+
+/* clear */
+.clear{
+    clear: both;
+}
+
+.Proveedor{
+    width: 800px;
+    margin: 25px auto;
+}
+
+.Proveedor .fondo{
+    background-image: url(imagenes/L_B_Dressed_updated.webp);
+    background-size: 100%;
+    width: 100%;
+    padding-top: 57%;
+    position: relative;
+}
+
+.Proveedor .fondo .seccion{
+    background-color: rgb(148, 150, 173 / 40%);
+    border-radius: 25px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    width: 27%;
+    height: 8%;
+    box-shadow: 3px 3px 2px 1px black;
+}
+
+.Proveedor .fondo .seccion{
+    top: 10%;
+    left: 0%;
+}
+
+
+
