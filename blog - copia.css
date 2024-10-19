@@ -10,52 +10,66 @@
 }
 
 html {
-    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;  /* Fuente del segundo archivo */
-    background-color: whitesmoke;  /* Fondo del segundo archivo */
+    background-color: whitesmoke;
     width: 100%;
     height: 100%;
-    max-width: 1200px;  /* Limitar el ancho como en el segundo archivo */
+    max-width: 1200px;
+    font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 auto;
 }
 
 body {
-    margin-left: 100px;
-    margin-right: 100px;
-    background-image: url('imagenes/fondo2.jpg');  /* Fondo de imagen del segundo archivo */
+    width: 100%;
+    max-width: 1200px;
+    background-image: url('imagenes/fondo2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
-    max-width: 1200px;
 }
 
 img {
     width: 100%;
 }
 
-.header {
-    min-height: 10vh;
-    display: flex;
-    gap: 3%;
-    justify-content: center;
-    text-align: center;
-}
-
-.encabezado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 398px;  /* Altura del segundo archivo */
-    text-align: center;
-    background-image: url('imagenes/banner.jpg');  /* Fondo del encabezado */
+header .encabezado{
+    background-image: url('imagenes/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
+    height: 398px;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    /*position: fixed;*/
 }
 
-.encabezado h1 {
-    margin: 0;
-    color: white;  /* Texto blanco como en el segundo archivo */
-}
+
+h1{
+    text-align: center;
+    color: white;
+   }
+   
+   h2{
+       text-align: center;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       color: black ;
+   }
+   nav{
+       position: absolute;
+       bottom: 25px;
+       left: 20px;
+       font-size: 17px;
+   }
+   
+   nav a{
+       color: white;
+       box-shadow: 3px 1px 3px 2px white;
+       text-decoration: none;
+       width: 200px;
+       display: inline-block;
+       text-align: center;
+   
+   }
 
 .encabezado p {
 
