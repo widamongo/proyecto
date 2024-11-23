@@ -74,7 +74,7 @@ nav a {
 
 }
 
-.encabezado p {}
+
 
 .video cite {
     display: block;
@@ -89,16 +89,19 @@ nav a {
 }
 
 .parte2 {
-    min-height: 100vh;
     display: flex;
-    gap: 2%;
-    padding: 15px 0;
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente (si es necesario) */
+    gap: 20px; /* Espaciado entre los elementos */
+    height: 100vh; /* Opcional: para centrar verticalmente dentro de toda la ventana */
+    text-align: center; /* Centrar texto dentro de los div */
 }
 
-.parte2>div {
-    flex-basis: 33%;
+img {
+    width: 70%;
+    width: 70%;
 }
-
 h2 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

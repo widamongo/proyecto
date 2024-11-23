@@ -32,7 +32,8 @@ header h1 {
     color: #333;
 }
 
-.content p, .content ul {
+.content p,
+.content ul {
     line-height: 1.6;
 }
 
