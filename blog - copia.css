@@ -14,28 +14,30 @@ html {
     width: 100%;
     height: 100%;
     max-width: 1200px;
-    font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 auto;
 }
 
 body {
     width: 100%;
     max-width: 1200px;
-    background-image: url('imagenes/fondo2.jpg');
+    background-image: linear-gradient(rgba(196, 193, 193, 0.877), rgba(177, 174, 174, 0.856)), url('imagenes/fondo2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+
 }
 
 img {
     width: 100%;
 }
 
-header .encabezado{
+header .encabezado {
     background-image: url('imagenes/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     height: 398px;
     width: 100%;
     max-width: 1200px;
@@ -44,36 +46,35 @@ header .encabezado{
 }
 
 
-h1{
+h1 {
     text-align: center;
     color: white;
-   }
-   
-   h2{
-       text-align: center;
-       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       color: black ;
-   }
-   nav{
-       position: absolute;
-       bottom: 25px;
-       left: 20px;
-       font-size: 17px;
-   }
-   
-   nav a{
-       color: white;
-       box-shadow: 3px 1px 3px 2px white;
-       text-decoration: none;
-       width: 200px;
-       display: inline-block;
-       text-align: center;
-   
-   }
+}
 
-.encabezado p {
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+nav {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    font-size: 17px;
+}
+
+nav a {
+    color: white;
+    box-shadow: 3px 1px 3px 2px white;
+    text-decoration: none;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
 
 }
+
+.encabezado p {}
 
 .video cite {
     display: block;
@@ -94,14 +95,15 @@ h1{
     padding: 15px 0;
 }
 
-.parte2 > div {
+.parte2>div {
     flex-basis: 33%;
 }
 
 h2 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;  /* Texto negro como en el segundo archivo */
+    color: black;
+    /* Texto negro como en el segundo archivo */
 }
 
 p {
@@ -117,8 +119,10 @@ footer {
     align-items: center;
     gap: 1%;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.4);  /* Fondo del footer */
-    color: white;  /* Texto blanco en el footer */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Fondo del footer */
+    color: white;
+    /* Texto blanco en el footer */
 }
 
 footer .contenedor2 img {
@@ -127,7 +131,8 @@ footer .contenedor2 img {
 }
 
 footer a {
-    color: azure;  /* Enlaces en el footer */
+    color: azure;
+    /* Enlaces en el footer */
 }
 
 footer p {

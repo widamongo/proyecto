@@ -18,10 +18,12 @@ html {
 body {
     width: 100%;
     max-width: 1200px;
-    background-image: url('imagenes/fondo2.jpg');
+    background-image: linear-gradient(rgba(196, 193, 193, 0.877), rgba(177, 174, 174, 0.856)), url('imagenes/fondo2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+
 }
 
 header .encabezado {
@@ -34,32 +36,33 @@ header .encabezado {
     position: relative;
 }
 
-h1{
+h1 {
     text-align: center;
     color: white;
-   }
-   
-   h2{
-       text-align: center;
-       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       color: black ;
-   }
-   nav{
-       position: absolute;
-       bottom: 25px;
-       left: 20px;
-       font-size: 17px;
-   }
-   
-   nav a{
-       color: white;
-       box-shadow: 3px 1px 3px 2px white;
-       text-decoration: none;
-       width: 200px;
-       display: inline-block;
-       text-align: center;
-   
-   }
+}
+
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+nav {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    font-size: 17px;
+}
+
+nav a {
+    color: white;
+    box-shadow: 3px 1px 3px 2px white;
+    text-decoration: none;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+
+}
 
 main {
     min-height: 70vh;
